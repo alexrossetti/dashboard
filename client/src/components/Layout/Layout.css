@@ -1,0 +1,79 @@
+.layout {
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    background-color: #38003c;
+    color: #00ff85;
+    display: flex;
+}
+
+.menu-button {
+    cursor: pointer;
+    padding: 5px 15px;
+    line-height: 50px;
+    width: 35px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    flex: 0.5;
+    height: 5px;
+    background-color: #00ff85;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00ff85;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 70px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #38003c;
+}
+
+.sidebar a:hover {
+    color: #fff;
+}
+
+.sidebar .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.list-item:hover {
+    display: block;
+    transition: 0.3s;
+    background-color: #38003c;
+}
+
+.list-item:hover a {
+    color: #00ff85;
+}
+
+.list-item:hover a:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.title {
+    margin: 0 auto;
+}
+
